@@ -51,11 +51,6 @@ table {
     clear: both;
 }
 
-.navbar-custom {
-    background-image: linear-gradient(to right, #16222E, #151D28, #141C27);
-}
-/* # */
-/*  */
 .nav-item{
     z-index: 999;
     font-family: 'Ephesis', cursive;
@@ -64,13 +59,15 @@ table {
     letter-spacing: 2px;
 }
 
+.navbar-font a{
+    font-size: 30px;
+}
+
 .top-container{
     font-family: 'Poppins', sans-serif;
     min-height: 835px;
     width: 100%;
 }
-
-
 
 /*effect-underline*/
 .nav-item a.effect-underline:after {
@@ -146,12 +143,18 @@ a.effect-underline:hover:after {
 .sm-offcanvas{
     display: none;
 }
+.abstract-2-sm{
+    display: none;
+}
 
 
 
+@media only screen and (min-width: 1000.01px) and  (max-width: 1185.01px){
+    .navbar-font a{
+        font-size: 20px;
+    }
 
-/* @media only screen and (min-width: 976.01px) and  (min-width: 976.01px){
-} */
+}
 @media only screen and (max-width: 1000px) {
     .header-1{
         padding-top: 20px;
@@ -179,6 +182,13 @@ a.effect-underline:hover:after {
     }
     .abstract-1, .abstract-2 {
         display: none;
+    }
+    .abstract-2-sm{
+        margin-top: -20px;
+        margin-left: 15px;
+        transform: rotate(4deg);
+        display: block;
+        text-align: center;
     }
     .sm-offcanvas{
         display:block;
