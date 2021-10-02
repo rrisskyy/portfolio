@@ -51,18 +51,23 @@ table {
     clear: both;
 }
 
-
-.top-container{
-    font-family: 'Poppins', sans-serif;
-    min-height: 835px;
-    width: 100%;
+.navbar-custom {
+    background-image: linear-gradient(to right, #16222E, #151D28, #141C27);
 }
+/* # */
+/*  */
 .nav-item{
     z-index: 999;
     font-family: 'Ephesis', cursive;
     margin-left: 50px;
     margin-top: 50px;
     letter-spacing: 2px;
+}
+
+.top-container{
+    font-family: 'Poppins', sans-serif;
+    min-height: 835px;
+    width: 100%;
 }
 
 
@@ -91,11 +96,10 @@ a.effect-underline:hover:after {
     transform: scale(1.2);
 }
 .header-1{
-    padding-top: 260px;
-    margin-right: 20px;
+    padding-top: 50px;
+    margin-right: 90px;
     text-align: right;
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 45px;
     letter-spacing: 7.5px;
 }
 .header-2{
@@ -104,15 +108,13 @@ a.effect-underline:hover:after {
     letter-spacing: 3px;
     text-align: center;
 }
-.underline-name{
+.abstract-2{
     margin-top: -30px;
 }
 .header-3{
     /* position: absolute; */
     font-size: 25px;
     color: #00FFF5;
-    transform: rotate(-7deg);
-    margin-left: 500px;
     text-align: center;
 }
 
@@ -121,7 +123,10 @@ a.effect-underline:hover:after {
     background-size: cover;
     max-height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    
+}
+.git-container{
+    text-align: center;
 }
 .git{
     width: 70%;
@@ -134,22 +139,53 @@ a.effect-underline:hover:after {
 
 
 .middle-container{
+    background-color: #2C394B;
     height: 100vh;
+}
+
+.sm-offcanvas{
+    display: none;
 }
 
 
 
 
-
-@media only screen and (max-width: 812px) {
+/* @media only screen and (min-width: 976.01px) and  (min-width: 976.01px){
+} */
+@media only screen and (max-width: 1000px) {
     .header-1{
-        
+        padding-top: 20px;
         font-size: 40px;
     }
     .header-2{
+        padding-top: 300px;
         font-size: 25px;
+    }
+    .header-3{
+        font-size: 25px;
+        color: #00FFF5;
+        transform: rotate(0);
+        text-align: center;
+    }
+    .git-container{
+        text-align: left;
+    }
+    .git{
+        width: 10%;
+        
     }
     .bg-1{
         background-position: center;
     }
-  }
+    .abstract-1, .abstract-2 {
+        display: none;
+    }
+    .sm-offcanvas{
+        display:block;
+    }
+    .navbar{
+        display: none;
+    }
+}
+
+

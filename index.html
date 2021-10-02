@@ -6,69 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risky Kurniawan</title>
 
+
+
+
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="top-container bg-1">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav m-auto pe-5">
-                <ul class="navbar-nav fs-3">
-                    <li class="nav-item active">
-                        <a href="#" class="text-decoration-none text-white effect-underline"> Why Choose Us?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="text-decoration-none text-white effect-underline"> About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="text-decoration-none text-white effect-underline"> Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://github.com/rrisskyy/portfolio" class="text-decoration-none d-block"><div class="mb-2 text-center"><img src="images/git.png" alt="" class="git"></div></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="text-decoration-none text-white effect-underline"> Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="text-decoration-none text-white effect-underline"> Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="text-decoration-none text-white effect-underline"> Contact Me</a>
-                    </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
 
-        <h1 class="text-white header-1 pe-3">Hi There!</h1>
-        
-        <h2 class="text-white header-2">I'm Risky Kurniawan</h2> 
-        <div class="text-center mb-1 underline-name">
-            <svg xmlns="http://www.w3.org/2000/svg" width="816.504" height="52.036" viewBox="0 0 816.504 52.036">
-                <path id="Path_1" data-name="Path 1" d="M313.483,370.993c958.155-2.831,807.357-51.06,807.357-51.06" transform="translate(-313.481 -319.457)" fill="none" stroke="#fff" stroke-width="1"/>
-              </svg>              
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>      
+    <div class="top-container bg-1">
+
+        <div class="sm-offcanvas">  
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class='bx bx-menu text-white fs-1'></i></button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Risky Kurniawan</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav fs-3">
+                        <li class="nav-item active">
+                            <a href="#" class="text-decoration-none text-black fw-bold effect-underline"> Why Choose Us?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-black fw-bold effect-underline"> About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-black fw-bold effect-underline"> Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-black fw-bold effect-underline"> Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-black fw-bold effect-underline"> Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-black fw-bold effect-underline"> Contact Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/rrisskyy/portfolio" class="text-decoration-none d-block"><div class="mb-2 git-container"><img src="images/git-dark.png" alt="" class="git"></div></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <h3 class="header-3">A Fullstack Web Developer</h3>
-        <div class="abstract-1">
-            <svg xmlns="http://www.w3.org/2000/svg" width="256.491" height="573.471" viewBox="0 0 256.491 573.471">
-                <path id="Path_2" data-name="Path 2" d="M83.485,540c318.26,267.942,293.631,372.14,171.581,403.768s31.607,126.9,42.143,169.2" transform="translate(-83.163 -539.617)" fill="none" stroke="#fff" stroke-width="1"/>
-            </svg>      
-        </div>    
-    </div>
+
+        <div data-aos="zoom-out" data-aos-duration="1500" data-aos-easing="ease-in-out">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="navbar-nav m-auto pe-5">
+                    <ul class="navbar-nav fs-3">
+                        <li class="nav-item active">
+                            <a href="#" class="text-decoration-none text-white effect-underline"> Why Choose Us?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-white effect-underline"> About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-white effect-underline"> Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/rrisskyy/portfolio" class="text-decoration-none d-block"><div class="mb-2 git-container"><img src="images/git.png" alt="" class="git"></div></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-white effect-underline"> Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-white effect-underline"> Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="text-decoration-none text-white effect-underline"> Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="text-white header-1 pe-3" id="writeAnimation"></h1>
+            <h2 class="text-white header-2 mt-5">I'm Risky Kurniawan</h2> 
+            <div class="text-center mb-1 abstract-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="509.737" height="52.005" viewBox="0 0 509.737 52.005">
+                    <path id="Path_1" data-name="Path 1" d="M313.483,370.993c295.975-1.4,422.384-13.926,474.711-26.251,53.112-12.509,29.113-24.809,29.113-24.809" transform="translate(-313.48 -319.488)" fill="none" stroke="#fff" stroke-width="1"/>
+                  </svg>
+                  
+            </div>
+            <h3 class="header-3">A Fullstack Web Developer</h3>
+            <!-- <div class="abstract-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="256.491" height="573.471" viewBox="0 0 256.491 573.471">
+                    <path id="Path_2" data-name="Path 2" d="M83.485,540c318.26,267.942,293.631,372.14,171.581,403.768s31.607,126.9,42.143,169.2" transform="translate(-83.163 -539.617)" fill="none" stroke="#fff" stroke-width="1"/>
+                </svg>      
+            </div>     -->
+        </div>
+        </div>
+        
     <div class="middle-container">
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+        var i = 0;
+        var txt = 'Hi There!,';
+        var speed = 500;
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById('writeAnimation').innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        typeWriter()
+    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
