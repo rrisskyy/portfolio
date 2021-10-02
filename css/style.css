@@ -47,10 +47,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Reset Meyer */
+
+
 .clear {
     clear: both;
 }
 
+
+/* Navigation */
 .nav-item{
     z-index: 999;
     font-family: 'Ephesis', cursive;
@@ -63,11 +68,15 @@ table {
     font-size: 30px;
 }
 
+
 .top-container{
-    font-family: 'Poppins', sans-serif;
     min-height: 835px;
     width: 100%;
 }
+.top-container, .middle-container{
+    font-family: 'Poppins', sans-serif;
+}
+
 
 /*effect-underline*/
 .nav-item a.effect-underline:after {
@@ -92,6 +101,22 @@ a.effect-underline:hover:after {
 .scale:hover {
     transform: scale(1.2);
 }
+
+.git-container{
+    text-align: center;
+}
+.git{
+    width: 70%;
+}
+/* END Navigation */
+
+/* Offcanvas */
+.sm-offcanvas{
+    display: none;
+}
+/* end Offcanvas */
+
+/* Header Text in top-container */
 .header-1{
     padding-top: 50px;
     margin-right: 90px;
@@ -105,49 +130,74 @@ a.effect-underline:hover:after {
     letter-spacing: 3px;
     text-align: center;
 }
-.abstract-2{
-    margin-top: -30px;
-}
 .header-3{
-    /* position: absolute; */
     font-size: 25px;
     color: #00FFF5;
     text-align: center;
 }
+.header-4{
+    font-size: 36px;
+    font-weight: 700;
+}
+/* End Header Text */
 
+
+/* background-image */
 .bg-1{
     background-image: url('../images/bg-1.jpg');
     background-size: cover;
     max-height: 100vh;
     background-attachment: fixed;
-    
 }
-.git-container{
-    text-align: center;
+.bg-2{
+    background-image: url('../images/bg-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
-.git{
-    width: 70%;
-}
+/* end background-image */
+
+
+
 .abstract-1{
     position: absolute;
     bottom: 0;
     left: 0;
 }
-
-
-.middle-container{
-    background-color: #2C394B;
-    height: 100vh;
-}
-
-.sm-offcanvas{
-    display: none;
+.abstract-2{
+    margin-top: -30px;
 }
 .abstract-2-sm{
     display: none;
 }
 
 
+/* Middle-container-1 */
+.middle-container{
+    background-color: #131D27;
+}
+.img-container{
+    text-align: center;
+    margin: 0px auto 100px;
+}
+.img-container img{
+    width: 40%;
+    height: 40%;
+}
+.text-justify{
+    text-align: justify;
+    line-height: 25px;
+}
+.bxs-graduation{
+    font-size: 50px;
+}
+
+/* End Middle-container-1 */
+
+/* Middle-container-2 */
+.middle-container-2{
+    height: 100vh;
+}
+/* End Middle-container-2 */
 
 @media only screen and (min-width: 1000.01px) and  (max-width: 1185.01px){
     .navbar-font a{
@@ -177,7 +227,7 @@ a.effect-underline:hover:after {
         width: 10%;
         
     }
-    .bg-1{
+    .bg-1, .bg-2{
         background-position: center;
     }
     .abstract-1, .abstract-2 {
