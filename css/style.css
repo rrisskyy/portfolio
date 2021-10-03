@@ -153,8 +153,7 @@ a.effect-underline:hover:after {
     background-attachment: fixed;
 }
 .bg-2{
-    background-image: url('../images/bg-2.jpg');
-    background-position: center;
+    background-image: url('../images/bg-1.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -210,6 +209,21 @@ a.effect-underline:hover:after {
     padding: 100px;
     background-color: #25242C;
 }
+.middle-container-3 p{
+    font-size: 16px;
+}
+.bxs-quote-alt-left {
+    opacity: 0.3;
+    position: relative;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.bxs-quote-alt-right {
+    opacity: 0.3;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 .swiper {
     width: 100%;
     height: 100%;
@@ -222,7 +236,7 @@ a.effect-underline:hover:after {
     font-size: 18px;
     background-color: #25242C;
     color: white;
-    padding: 0 100px;
+    padding: 10px 100px;
     
     /* Center slide text vertically */
     display: -webkit-box;
@@ -238,6 +252,16 @@ a.effect-underline:hover:after {
     -webkit-align-items: center;
     align-items: center;
 }
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background-color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #0d6efd !important;
+}
 .testimonials-img{
     width: 100px;
     height: 100px;
@@ -245,8 +269,28 @@ a.effect-underline:hover:after {
 
 /* End Middle-container-3 */
 
+.bottom-container{
+    font-family: 'Poppins', sans-serif;
+    padding: 100px;
+}
 
 
+
+
+
+
+
+
+
+
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+footer p{
+    font-size: 14px;
+}
 
 
 
@@ -308,6 +352,15 @@ a.effect-underline:hover:after {
     }
     .logo-end{
         margin-right: 50px;
+    }
+    .swiper-slide{
+        padding: 0 20px;
+    }
+    .middle-container-3{
+        padding: 10px;
+    }
+    .bottom-container{
+        padding: 50px 20px;
     }
 }
 
