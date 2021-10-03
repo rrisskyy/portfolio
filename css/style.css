@@ -190,16 +190,22 @@ a.effect-underline:hover:after {
 .bxs-graduation{
     font-size: 50px;
 }
-
+.img-logo{
+    width: 50px;
+}
+.logo-start{
+    margin-left: 100px;
+}
+.logo-end{
+    margin-right: 100px;
+}
 /* End Middle-container-1 */
 
 /* Middle-container-2 */
 .middle-container-2{
     height: 100vh;
 }
-.img-logo{
-    width: 48px;
-}
+
 /* End Middle-container-2 */
 
 
@@ -259,6 +265,12 @@ a.effect-underline:hover:after {
     }
     .navbar{
         display: none;
+    }
+    .logo-start{
+        margin-left: 50px;
+    }
+    .logo-end{
+        margin-right: 50px;
     }
 }
 
