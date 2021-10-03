@@ -7,7 +7,7 @@
     <title>Risky Kurniawan</title>
 
 
-
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -107,34 +107,56 @@
         
         <div class="middle-container m-auto pt-5">
             <div class="container">
-                <h1 class="text-white header-4 text-uppercase text-center">About Me</h1>
+                <div data-aos="fade-in" data-aos-duration="2500">
+                    <h1 class="text-white header-4 text-uppercase text-center pt-3 pb-3">About Me</h1>
+                </div>
                 <div class="row pt-5">
-                    <div class="col-md-6">
-                        <div class="bg-transparent img-container">
-                            <img src="images/risky.png" class="rounded-circle" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-white text-justify pb-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex eos assumenda tempora non facilis illo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor asperiores sequi explicabo, eos facere tempora officia ipsum recusandae, hic esse consectetur quae alias a placeat odit vel ab facilis fugit. dignissimos soluta, quo quis dolorum vitae quisquam a voluptates nobis iure ducimus nemo eligendi!
-                        Lorem ipsum dolor sit amet consectetur adipisicing as.
-                        
-                        <div class="row mt-5">
-                            <div class="col-2 text-center">
-                                <i class='bx bxs-graduation'></i>
-                            </div>
-                            <div class="col-10 m-auto">
-                                I study at Mulawarman University in Bachelor of Computer Science
+
+                    
+                        <div class="col-md-6">
+                            <div class="bg-transparent img-container">
+                                <div data-aos="fade-right" data-aos-duration="1500">
+                                    <img src="images/risky.png" class="rounded-circle" alt="">
+                                </div>
                             </div>
                         </div>
 
+                    <div class="col-md-6 text-white text-justify pb-5">
+                        <div data-aos="fade-left" data-aos-duration="1500">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex eos assumenda tempora non facilis illo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor asperiores sequi explicabo, eos facere tempora officia ipsum recusandae, hic esse consectetur quae alias a placeat odit vel ab facilis fugit. dignissimos soluta, quo quis dolorum vitae quisquam a voluptates nobis iure ducimus nemo eligendi!
+                        Lorem ipsum dolor sit amet consectetur adipisicing as.
+                            <div class="row mt-5">
+                                <div class="col-2 text-center">
+                                    <i class='bx bxs-graduation'></i>
+                                </div>
+                                <div class="col-10 m-auto">
+                                    I study at Mulawarman University in Bachelor of Computer Science
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
             </div>           
         </div>
 
         <div class="middle-container-2 bg-2 pt-5">
             <h1 class="text-white header-4 text-uppercase text-center">Skills</h1>
+            <ul class="text-white ps-5">
+                    <li class="pt-2">
+                        <a href="https://icons8.com/icons/set/html-5"><img class="img-logo" src="images/icons8-html-5.svg" alt=""></a>
+                        <p class="text-white d-inline-block m-auto">HTML 5</p>
+                    </li>
+                    <li class="pt-2"><a href="https://icons8.com/icons/set/css-logo"><img class="img-logo" src="images/icons8-css3.svg" alt=""></a></li>
+                    <li class="pt-2"><a href="https://www.freepnglogos.com/pics/javascript"><img class="img-logo" src="images/javascript-39404.png" alt=""></a></li>
+                    <li class="pt-2"><a href="https://www.php.net/download-logos.php"><img class="img-logo" src="images/php-original.svg" alt=""></a></li> 
+                    <li class="pt-2"><a href="https://nodejs.org/en/" target="_blank"><img class="img-logo" src="images/nodejs-new-pantone-white.svg" alt=""></a></li>
+                    <li class="pt-2"><a href="https://uxwing.com/express-js-icon/"><img class="img-logo" src="images/expressjs.svg" alt=""></a></li>
+                    <li class="pt-2"><a href="https://www.python.org/"><img class="img-logo" src="images/python.svg" alt=""></a></li>
+            </ul>
         </div>
+        
         <div class="middle-container-3 bg-2">
             
         </div>
@@ -167,7 +189,10 @@
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        offset: 250,
+        once: true,
+      });
     </script>
 <!--     <script>
         var i = 0;

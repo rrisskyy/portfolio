@@ -197,7 +197,21 @@ a.effect-underline:hover:after {
 .middle-container-2{
     height: 100vh;
 }
+.img-logo{
+    width: 48px;
+}
 /* End Middle-container-2 */
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 1000.01px) and  (max-width: 1185.01px){
     .navbar-font a{
