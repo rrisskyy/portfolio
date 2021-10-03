@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
 	line-height: 1;
     overflow-x: hidden;
@@ -150,7 +153,8 @@ a.effect-underline:hover:after {
     background-attachment: fixed;
 }
 .bg-2{
-    background-image: url('../images/bg-1.jpg');
+    background-image: url('../images/bg-2.jpg');
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -173,7 +177,7 @@ a.effect-underline:hover:after {
 
 /* Middle-container-1 */
 .middle-container{
-    background-color: #131D27;
+    background-color: #25242C;
 }
 .img-container{
     text-align: center;
@@ -201,12 +205,45 @@ a.effect-underline:hover:after {
 }
 /* End Middle-container-1 */
 
-/* Middle-container-2 */
-.middle-container-2{
-    height: 100vh;
+/* Middle-container-3 */
+.middle-container-3{
+    padding: 100px;
+    background-color: #25242C;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-wrapper{
+    margin-bottom: 50px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #25242C;
+    color: white;
+    padding: 0 100px;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.testimonials-img{
+    width: 100px;
+    height: 100px;
 }
 
-/* End Middle-container-2 */
+/* End Middle-container-3 */
 
 
 
