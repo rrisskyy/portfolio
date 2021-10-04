@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -128,15 +130,17 @@ a.effect-underline:hover:after {
     letter-spacing: 7.5px;
 }
 .header-2{
+    font-family: 'Bonheur Royale', cursive;
     padding-top: 200px;
-    font-size: 40px;
+    font-size: 53px;
     letter-spacing: 3px;
     text-align: center;
 }
 .header-3{
-    font-size: 25px;
-    color: #00FFF5;
+    font-size: 20px;
+    color: white;
     text-align: center;
+    text-transform: uppercase;
 }
 .header-4{
     font-size: 36px;
@@ -254,8 +258,8 @@ a.effect-underline:hover:after {
 }
 
 .swiper-pagination .swiper-pagination-bullet {
-    width: 13px;
-    height: 13px;
+    width: 12px;
+    height: 12px;
     background-color: white !important;
 }
 
