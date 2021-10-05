@@ -208,6 +208,14 @@ a.effect-underline:hover:after {
 }
 /* End Middle-container-1 */
 
+/* Middle-container-2 */
+.img-portfolio {
+    width: 370px;
+    height: 200px;
+}
+/* End Middle-container-2 */
+
+
 /* Middle-container-3 */
 .middle-container-3{
     padding: 100px;
@@ -365,6 +373,9 @@ footer p{
     }
     .bottom-container{
         padding: 50px 20px;
+    }
+    .img-portfolio {
+        width: 70%;
     }
 }
 
