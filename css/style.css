@@ -370,6 +370,9 @@ footer p{
     .logo-start{
         margin-left: 50px;
     }
+    .testimonials-text{
+        font-size: 13px;
+    }
     .logo-end{
         margin-right: 50px;
     }
